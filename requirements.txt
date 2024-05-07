@@ -1,0 +1,8 @@
+langchain
+langserve[all]
+langchain-google-genai
+langchain-openai
+python-dotenv
+fastapi
+uvicorn
+pydantic==1.10.13
