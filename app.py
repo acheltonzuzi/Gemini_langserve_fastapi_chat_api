@@ -25,8 +25,9 @@ add_routes(
     app,
     prompt|model,
     path='/gemini',
-    playground_type='chat'
+    playground_type='default'
 )
 
 if __name__=='__main__':
     uvicorn.run(app,host='localhost',port=8000)
+    #uvicorn app:app --host 0.0.0.0 --port 9000
